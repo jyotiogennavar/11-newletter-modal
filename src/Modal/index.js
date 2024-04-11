@@ -208,6 +208,26 @@ const ModalContent = styled(motion.div)`
       }
     }
   }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    h2 {
+      font-size: 1.25rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+    form {
+      flex-direction: column; 
+      gap: 1rem;
+      input {
+        padding: 0.25rem 0.5rem;
+      }
+      button {
+        padding: 0.25rem 0.5rem;
+      }
+    }
+  }
 `;
 
 const SVG = styled.svg`
